@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import reviewsController from './controllers/reviewsController.js';
+import reviewsController from './controllers/reviewsController';
 
 // Load environment variables
 dotenv.config();

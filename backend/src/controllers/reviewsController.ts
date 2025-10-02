@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { HostawayService } from '../services/hostawayService.js';
+import { HostawayService } from '../services/hostawayService';
 
 const hostawayService = new HostawayService();
 
